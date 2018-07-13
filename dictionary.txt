@@ -1,0 +1,10 @@
+apple
+orange
+egg
+lemon
+grapes
+secret
+strawberry
+
+password
+mandar
