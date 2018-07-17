@@ -1,0 +1,8 @@
+admin
+root
+toor
+password
+password1
+12345
+123456789
+bdfb
