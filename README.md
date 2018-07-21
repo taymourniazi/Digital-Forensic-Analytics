@@ -12,3 +12,7 @@ taymour:∼# python portScan.py -H 10.50.60.125 -p "21, 1720"
 ## H) botNet.py
 
 Change IP, Root, Password to issue SSH commands on compromised machines
+
+## I) anonLogin.py  
+  
+First you have to allow /etc/vsftpd.conf file to enable anon_login to yes or uncomment it
