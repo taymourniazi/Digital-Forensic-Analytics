@@ -4,13 +4,14 @@ Forensic Investigation, Network Traffic Analysis, Penetration Testing, Antivirus
 
 These codes are almost similar to book: "Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers" book by TJ. O’Connor.  
 
-## Operating System
-
-I Use virtualbox to setup a Ubuntu 18.04 LTS linux box to run these on
-The actual i have is Kali Linux 64 Bit 2018.2
-Window7 for few scripts
-
-
+## Operating System  
+  
+I Use virtualbox to setup a Ubuntu 18.04 LTS linux box to run these on  
+The actual i have is Kali Linux 64 Bit 2018.2  
+Window7 for few scripts  
+  
+Where possible i display all he codes with result Jupyter notebook (#FileFormat .ipynb)  
+  
 # Penetration Testing  
 ## PortScan.py  
 
