@@ -47,3 +47,10 @@ Usage from command prompt
 ## N) dumpRecycleBin.py  
   
 Allows to discover deleted items in windows operating system ,also provide information about the user who delete files
+
+
+## O) PdfRead.py
+
+Usage#
+taymour:!# python pdfRead.py -F Violent_Python.pdf
+provide metadata and information about pdf like creation date, user, title, creator, producer etc.
