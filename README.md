@@ -54,3 +54,10 @@ Allows to discover deleted items in windows operating system ,also provide infor
 Usage#
 taymour:!# python pdfRead.py -F Violent_Python.pdf
 provide metadata and information about pdf like creation date, user, title, creator, producer etc.
+
+
+## P) exifFetch.py
+
+build a script to connect to a Website, download all the images on the site, and then check them for Exif metadata.
+#Usage in CMD
+python exifFetch.py -u http://www.flickr.com/photos/dvids/4999001925/sizes/o
