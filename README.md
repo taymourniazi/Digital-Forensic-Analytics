@@ -64,8 +64,8 @@ build a script to connect to a Website, download all the images on the site, and
 python exifFetch.py -u http://www.flickr.com/photos/dvids/4999001925/sizes/o  
 
 
-## Q) skype-parse.py
-
-List out variety of contents of skype in python console about skype user history name, tags, location, text messages etc
-Usage#
-python skype-parse.py -p C:\AppData\Roaming\Microsoft\Skype_for_Desktop\skylib\taymourniazi
+## Q) skype-parse.py  
+  
+List out variety of contents of skype in python console about skype user history name, tags, location, text messages etc  
+Usage#  
+python skype-parse.py -p C:\AppData\Roaming\Microsoft\Skype_for_Desktop\skylib\taymourniazi  
