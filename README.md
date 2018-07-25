@@ -80,7 +80,7 @@ Usage#
 python skype-parse.py -p C:\AppData\Roaming\Microsoft\Skype_for_Desktop\skylib\taymourniazi  
   
 ## R) parse-firefox.py  
-### Parsing Firefox Sqlite3 Databases with Python
-Display propoerties like downloads, google search, cookies
-Usage#
-taymour~# python parse-firefox.py -p !/Library/Application/Support/Firefox/Profiles/8fg7cd82.default/
+### Parsing Firefox Sqlite3 Databases with Python  
+Display propoerties like downloads, google search, cookies  
+Usage#  
+taymour~# python parse-firefox.py -p !/Library/Application/Support/Firefox/Profiles/8fg7cd82.default/  
