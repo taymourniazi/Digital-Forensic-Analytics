@@ -65,6 +65,7 @@ python exifFetch.py -u http://www.flickr.com/photos/dvids/4999001925/sizes/o
 
 
 ## Q) skype-parse.py  
+### Using Python and Sqlite3 to Automate Skype Database Queries
   
 List out variety of contents of skype in python console about skype user history name, tags, location, text messages etc  
 Usage#  
