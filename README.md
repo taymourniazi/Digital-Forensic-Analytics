@@ -85,6 +85,7 @@ Display propoerties like downloads, google search, cookies
 Usage#  
 taymour~# python parse-firefox.py -p !/Library/Application/Support/Firefox/Profiles/8fg7cd82.default/  
 
+# Network Traffic Analysis with Python
 ## S) printGeo.py 
 ### Using PyGeoIP to Correlate IP to Physical Locations
 providing IP adress the script print the details like country, city name, longitude and latitude  
