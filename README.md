@@ -87,7 +87,8 @@ taymour~# python parse-firefox.py -p !/Library/Application/Support/Firefox/Profi
 
 # Network Traffic Analysis with Python
 ## S) printGeo.py 
-### Using PyGeoIP to Correlate IP to Physical Locations
+### powerful packet analysis toolkit that allows us to see the physical destinations of our packets.  
 providing IP adress the script print the details like country, city name, longitude and latitude  
 Usage#  
-taymour# python printGeo.py  
+taymour~# python printGeo.py -p geotest.pcap 
+
