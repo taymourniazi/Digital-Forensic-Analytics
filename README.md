@@ -84,3 +84,9 @@ python skype-parse.py -p C:\AppData\Roaming\Microsoft\Skype_for_Desktop\skylib\t
 Display propoerties like downloads, google search, cookies  
 Usage#  
 taymour~# python parse-firefox.py -p !/Library/Application/Support/Firefox/Profiles/8fg7cd82.default/  
+
+## S) printGeo.py 
+### Using PyGeoIP to Correlate IP to Physical Locations
+providing IP adress the script print the details like country, city name, longitude and latitude  
+Usage#  
+taymour# python printGeo.py  
