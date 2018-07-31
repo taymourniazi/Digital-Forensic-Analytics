@@ -95,6 +95,6 @@ taymour~# python printGeo.py -p geotest.pcap
 
 ## V) linkParser.py
 ### Parsing HREF Links with Beautiful Soup  
-Extract URL Links from given website main page
-Usage#  
-taymour:# python linkParser.py -uhttp://www.hampsterdance.com/
+Extract URL Links from given website main page   
+Usage#   
+taymour:# python linkParser.py -u http://www.hampsterdance.com/
