@@ -38,6 +38,7 @@ Change IP, Root, Password to issue SSH commands on compromised machines.
 ### 
 First you have to allow /etc/vsftpd.conf file to enable anon_login to yes or uncomment it  
 
+
 ## L) massCompromise.py  
 ### Mass comprise by bridging FTP and Web
 In command line following options are required to attack web pages and inject your own html file to steal compromised user credentials in default location  
@@ -92,3 +93,8 @@ providing IP adress the script print the details like country, city name, longit
 Usage#  
 taymour~# python printGeo.py -p geotest.pcap 
 
+## V) linkParser.py
+### Parsing HREF Links with Beautiful Soup  
+Extract URL Links from given website main page
+Usage#  
+taymour:# python linkParser.py -uhttp://www.hampsterdance.com/
