@@ -98,3 +98,9 @@ taymour~# python printGeo.py -p geotest.pcap
 Extract URL Links from given website main page   
 Usage#   
 taymour:# python linkParser.py -u http://www.hampsterdance.com/
+
+# W) imageMirror  
+### Downloading images with Beautiful Soup  
+It will download images from given website into speified folder    
+Usage#  
+taymour∼# python imageMirror.py -u http://xkcd.com -d /tmp/  
